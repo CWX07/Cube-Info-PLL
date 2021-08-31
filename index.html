@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cube Info - PLL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./cubeinfo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav>
+    <div class="nav__logo">
+      <h1>Cube Info</h1>
+    </div>
+    <ul class="nav__links" id="idnav__links">
+      <li><a href="https://cwx07.github.io/Cube-Info-Home">Home</a></li>
+      <li>
+        <a href="https://cwx07.github.io/Cube-Info-Introduction/index.html"
+          >Introduction</a>
+      </li>
+      <div class="dropdown">
+        <button class="dropbtn">Notation</button>
+        <div class="dropdown-content">
+          <a href="https://cwx07.github.io/Cube-Info-BasicN"
+            >Basic Notation</a>
+          <a href="https://cwx07.github.io/Cube-Info-DoubleN"
+            >Double Layer Notation</a>
+          <a href="https://cwx07.github.io/Cube-Info-OtherN"
+            >Other Notation</a>
+        </div>
+      </div>
+      <li><a href="https://cwx07.github.io/Cube-Info-OLL">OLL</a></li>
+      <li><a href="https://cwx07.github.io/Cube-Info-PLL">PLL</a></li>
+    </ul>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰</button> 
+      </div>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <li><a href="https://cwx07.github.io/Cube-Info-Home">Home</a></li>
+      <li>
+        <a href="https://cwx07.github.io/Cube-Info-Introduction/index.html"
+          >Introduction</a>
+      </li>
+          <li><a href="https://cwx07.github.io/Cube-Info-BasicN"
+            >Basic Notation</a></li>
+          <li><a href="https://cwx07.github.io/Cube-Info-DoubleN"
+            >Double Layer Notation</a></li>
+          <li><a href="https://cwx07.github.io/Cube-Info-OtherN"
+            >Other Notation</a></li>
+      <li><a href="https://cwx07.github.io/Cube-Info-OLL">OLL</a></li>
+      <li><a href="https://cwx07.github.io/Cube-Info-PLL">PLL</a></li>
+      </div>
+  </nav> 
+
+     <section id="permutation" class="perm__section">
+      <div class="dropdown1">
+        <button class="dropbtn1"> 
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-content1">
+          <a href="#a">A Perm</a>
+          <a href="#e">E Perm</a>
+          <a href="#f">F Perm</a>
+          <a href="#g">G Perm</a>
+          <a href="#h">H Perm</a>
+          <a href="#z">Z Perm</a>
+          <a href="#j">J Perm</a>
+          <a href="#n">N Perm</a>
+          <a href="#r">R Perm</a>
+          <a href="#u">U Perm</a>
+          <a href="#t">T Perm</a>
+          <a href="#v">V Perm</a>
+          <a href="#y">Y Perm</a>
+        </div>
+    </div>
+        <div id="a" class="container">
+            <h1 class="grayh1"><u>PLL <br>(Permutation of the Last Layer)</u></h1>
+        </div>
+            <h2 class="grayh2"><u>A Permutation</u></h2>
+            <div class="perm__info">
+                  <img
+                  src="./pll/A1.gif"
+                  class="permimg270"
+                  />
+                <div class="permutation">
+                    <h1>A1:</h1>
+                    <p>x L2 D2 L' U' L D2 L' U L' x</p>
+                </div>
+              </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/A2.gif"
+                class="permimg90"
+                />
+              <div id="e" class="permutation">
+                  <h1>A2:</h1>
+                  <p>x' L2 D2 L U L' D2 L U' L x</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>E Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/E.gif"
+                class="permimg90"
+                />
+              <div id="f" class="permutation">
+                  <h1>E:</h1>
+                  <p>x' R U' R' D R U R' D' R U R' D R U' R' D' x</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>F Permutation</u></h2>
+              <div class="perm__info-1">
+                <img
+                src="./pll/F.gif"
+                class="permimg90"
+                />
+              <div id="g" class="permutation">
+                  <h1>F:</h1>
+                  <p>R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>G Permutation</u></h2>
+            <h2 class="grayh3">The G permutation is the most complex case for PLL to identify. Therefore, we use unique patterns to identify it. 
+            The "headlights" and the "block" are used to help identify this case. The headlights are two same colour of corners facing the same side but 
+            the center of the side is different, whereas the "block" is a same coloured center and a corner facing the same side and they are connected. 
+            </h2>
+            <div class="perm__info">
+                <img
+                src="./pll/G1.gif"
+                class="permimg90"
+                />
+              <div class="permutation">
+                  <h1>G1:</h1>
+                  <p>R2 U R' U R' U' R U' R2 D U' R' U R D'</p>
+              </div>
+            </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/G2.gif"
+                class="permimg"
+                />
+              <div class="permutation">
+                  <h1>G2:</h1>
+                  <p>R' U' R U D' R2 U R' U R U' R U' R2 D</p>
+              </div>
+            </div>
+
+            <div class="perm__info">
+                <img
+                src="./pll/G3.gif"
+                class="permimg90"
+                />
+              <div class="permutation">
+                  <h1>G3:</h1>
+                  <p>R2 U' R U' R U R' U R2 D' U R U' R' D</p>
+              </div>
+            </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/G4.gif"
+                class="permimg180"
+                />
+              <div id="h" class="permutation">
+                  <h1>G4:</h1>
+                  <p>R U R' U' D R2 U' R U' R' U R' U R2 D'</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>H Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/H.png"
+                class="permimg90"
+                />
+              <div id="z" class="permutation">
+                  <h1>H:</h1>
+                  <p>M2 U M2 U2 M2 U M2</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>Z Permutation</u></h2>
+              <div class="perm__info-1">
+                <img
+                src="./pll/Z.gif"
+                class="permimg180"
+                />
+              <div id="j" class="permutation">
+                  <h1>Z:</h1>
+                  <p>M2 U M2 U M' U2 M2 U2 M' U2</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>J Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/J1.gif"
+                class="permimg"
+                />
+              <div class="permutation">
+                  <h1>J1:</h1>
+                  <p>x R2' F R F' R U2 r' U r U2 x'</p>
+              </div>
+            </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/J2.gif"
+                class="permimg"
+                />
+              <div id="n" class="permutation">
+                  <h1>J2:</h1>
+                  <p>R U R' F' R U R' U' R' F R2 U' R' U'</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>N Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/N1.gif"
+                class="permimg"
+                />
+              <div class="permutation">
+                  <h1>N1:</h1>
+                  <p>R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'</p>
+              </div>
+            </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/N2.gif"
+                class="permimg"
+                />
+              <div id="r" class="permutation">
+                  <h1>N2:</h1>
+                  <p>R' U L' U2 R U' L R' U L' U2 R U' L U</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>R Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/R1.gif"
+                class="permimg180"
+                />
+              <div class="permutation">
+                  <h1>R1:</h1>
+                  <p>L U2 L' U2 L F' L' U' L U L F L2</p>
+              </div>
+            </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/R2.gif"
+                class="permimg"
+                />
+              <div id="u" class="permutation">
+                  <h1>R2:</h1>
+                  <p>R' U2 R U2 R' F R U R' U' R' F' R2' U'</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>U Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/U1.gif"
+                class="permimg180"
+                />
+              <div class="permutation">
+                  <h1>U1:</h1>
+                  <p>M2 U M U2 M' U M2</p>
+              </div>
+            </div>
+
+              <div class="perm__info-1">
+                <img
+                src="./pll/U2.gif"
+                class="permimg180"
+                />
+              <div id="t" class="permutation">
+                  <h1>U2:</h1>
+                  <p>M2 U' M U2 M' U' M2</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>T Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/T.gif"
+                class="permimg"
+                />
+              <div id="v" class="permutation">
+                  <h1>T1:</h1>
+                  <p>R U R' U' R' F R2 U' R' U' R U R' F'</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>V Permutation</u></h2>
+              <div class="perm__info-1">
+                <img
+                src="./pll/V.gif"
+                class="permimg"
+                />
+              <div id="y" class="permutation">
+                  <h1>V:</h1>
+                  <p>R' U R' U' y R' F' R2 U' R' U R' F R F</p>
+              </div>
+            </div>
+
+            <h2 class="grayh2"><u>Y Permutation</u></h2>
+            <div class="perm__info">
+                <img
+                src="./pll/Y.gif"
+                class="permimg"
+                />
+              <div class="permutation">
+                  <h1>Y:</h1>
+                  <p>F R U' R' U' R U R' F' (R U R' U') (R' F R F')</p>
+              </div>
+            </div>
+    </section>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.display = "none";
+        document.getElementById("navlogoid").style.display ="none";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.display = "block";
+        document.getElementById("navlogoid").style.display ="block";
+      }
+      </script>
+</body>
+</html>
